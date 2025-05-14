@@ -141,6 +141,16 @@
 		
 	</dependencies>
 
+
+
+	<distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <url>http://192.168.1.192:8081/repository/maven-snapshots</url>
+    </repository>
+</distributionManagement>
+
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
